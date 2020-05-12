@@ -214,3 +214,49 @@ body {
 .subcate .subcate-con .subcate-con-lk:hover{
     color: #e63625;
 }
+
+/*二级分类猜你喜欢*/
+.guess-like{
+    float: left;
+    width: 250px;
+    padding-top: 30px;
+}
+
+.guess-like h3{
+    color: #666;
+    text-align: center;
+}
+
+.like-item{
+    float: left;
+}
+
+.like-item .like-lk{
+    display: block;
+    width: 100px;
+    padding: 10px 0 0 15px;
+}
+
+.like-item .like-lk img{
+    width: 100px;
+    height: 100px;
+}
+
+.like-lk:hover img{
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.like-item .like-lk p{
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #666;
+}
+
+.like-lk:hover p{
+    color: #e63625;
+}
